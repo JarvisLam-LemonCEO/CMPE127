@@ -1,0 +1,25 @@
+﻿  Assembling sum.asm...
+sum.asm(4): error A2008: syntax error : .
+sum.asm(5): error A2008: syntax error : .
+sum.asm(6): error A2008: syntax error : .
+sum.asm(7): error A2008: syntax error : ,
+sum.asm(30): error A2044: invalid character in file
+sum.asm(83): error A2008: syntax error : jcxz
+sum.asm(136): error A2008: syntax error : JCXZ
+sum.asm(148): error A2008: syntax error : DAA
+sum.asm(166): error A2008: syntax error : DAA
+sum.asm(172): error A2008: syntax error : DAS
+sum.asm(178): error A2008: syntax error : AAA
+sum.asm(185): error A2008: syntax error : AAS
+sum.asm(192): error A2008: syntax error : AAS
+sum.asm(193): error A2008: syntax error : AAD
+sum.asm(200): error A2008: syntax error : AAM
+sum.asm(204): error A2008: syntax error : AAD
+sum.asm(207): error A2008: syntax error : DAA
+sum.asm(209): error A2008: syntax error : invoke
+sum.asm(212): error A2008: syntax error : main
+sum.asm(212): error A2088: END directive required at end of file
+sum.asm(70): error A2006: undefined symbol : numbers
+sum.asm(78): error A2006: undefined symbol : numbers
+sum.asm(88): error A2006: undefined symbol : numbers
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\sum.obj" /W3 /errorReport:prompt  /Tasum.asm" exited with code 1.
