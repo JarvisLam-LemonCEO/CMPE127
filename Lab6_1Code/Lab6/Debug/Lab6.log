@@ -1,0 +1,2 @@
+﻿Lab6_2.obj : error LNK2005: _main@0 already defined in Lab6_1.obj
+C:\CMPE 127\Lab6\Debug\Lab6.exe : fatal error LNK1169: one or more multiply defined symbols found

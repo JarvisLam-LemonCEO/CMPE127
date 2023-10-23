@@ -1,0 +1,9 @@
+﻿  Assembling Lab6_2.asm...
+Lab6_2.asm(1): error A2008: syntax error : .
+Lab6_2.asm(2): error A2008: syntax error : .
+Lab6_2.asm(3): error A2008: syntax error : .
+Lab6_2.asm(4): error A2008: syntax error : ,
+Lab6_2.asm(31): error A2008: syntax error : invoke
+Lab6_2.asm(34): error A2008: syntax error : main
+Lab6_2.asm(34): error A2088: END directive required at end of file
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\Lab6_2.obj" /W3 /errorReport:prompt  /TaLab6_2.asm" exited with code 1.
