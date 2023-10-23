@@ -1,0 +1,23 @@
+;Lab2 ZERO
+
+.386
+.model flat, stdcall
+.stack 4096
+ExitProcess proto,dwExitCode:dword
+
+.data
+
+.code
+main proc
+	MOV EAX, 0
+	MOV EBX, 0
+	MOV AL, 50
+	MOV BL, 50
+	CMP AL, BL
+	SUB AL, BL
+	CMP AL,BL
+
+	invoke ExitProcess, 0
+
+main endp
+end main

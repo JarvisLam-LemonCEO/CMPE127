@@ -1,0 +1,44 @@
+;Lab1 Sample program
+
+; Define program properties and memory model
+.386
+.model flat,stdcall
+.stack 4096
+ExitProcess proto,dwExitCode:dword
+
+; Declare initialized data section
+.data
+
+; Declare a 16 bit variable a with an initial value of 9
+a WORD 9
+
+; Declare uninitialized 32 bit variables sum and diff
+sum DWORD ?
+diff DWORD ?
+
+; Start of code section
+.code
+main proc
+    ; Load the value 7 into the eax register
+	mov eax, 7
+
+    ; Add 4 to the value in the eax regiater
+	add eax, 4
+
+    ; Store the result 11 into the sum variable
+	mov sum, eax
+
+    ; Load the value 12345 into the eax register
+	mov eax, 12345
+
+    ; Subtract 2 from the value in the eax register
+	sub eax, 2
+
+    ; Store the result 12345 into the diff variable
+	mov diff, eax
+
+    ; Call the ExitProcess function with exit code 0
+	invoke ExitProcess, 0
+
+main endp
+end main

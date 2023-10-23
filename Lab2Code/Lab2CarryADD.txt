@@ -1,0 +1,21 @@
+;Lab2 CarryADD
+
+.386
+.model flat, stdcall
+.stack 4096
+ExitProcess proto,dwExitCode:dword
+
+.data
+
+.code
+main proc
+	MOV EAX, 0
+	MOV EBX, 0
+	MOV AL, 0FFH
+	MOV BL, 1H
+	ADD AL, BL
+
+	invoke ExitProcess, 0
+
+main endp
+end main

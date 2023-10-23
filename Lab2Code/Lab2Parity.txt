@@ -1,0 +1,22 @@
+;Lab2 Parity
+
+.386
+.model flat, stdcall
+.stack 4096
+ExitProcess proto,dwExitCode:dword
+
+.data
+
+.code
+main proc
+	MOV EAX, 0
+	MOV EBX, 0
+	MOV AL, 1
+	MOV BL, 1
+	ADD BL, AL
+	ADD BL, AL
+
+	invoke ExitProcess, 0
+
+main endp
+end main
